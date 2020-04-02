@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<Configuration status="WARN" monitorInterval="600">
+
+    <Properties>
+    </Properties>
+
+    <Appenders>
+
+        <Console name="Console" target="SYSTEM_OUT">
+
+            <ThresholdFilter level="trace" onMatch="ACCEPT" onMismatch="DENY"/>
+            <PatternLayout pattern="%d{yyyy-MM-dd HH:mm:ss.SSS} %-5level %class{36} %L %M - %msg%xEx%n"/>
+        </Console>
+
+	     <File name="Log" fileName="blog/blog.log" append="false">
+	        <PatternLayout pattern="%d{HH:mm:ss.SSS} %-5level %class{36} %L %M - %msg%xEx%n"/>
+	     </File>
+
+        <RollingRandomAccessFile name="RollingRandomAccessFileWarn"
+                                 immediateFlush="false" fileName="${sys:user.home}/blog/warn.log"
+                                 filePattern="${sys:user.home}/blog/$${date:yyyy-MM}/warn-%d{yyyy-MM-dd}-%i.log">
+            <ThresholdFilter level="info" onMatch="ACCEPT" onMismatch="DENY"/>
+           
+            <PatternLayout>
+                <pattern>%d{yyyy-MM-dd HH:mm:ss.SSS} %-5level %class{36} %L %M -- %msg%xEx%n</pattern>
+            </PatternLayout>
+            <Policies>
+                <TimeBasedTriggeringPolicy interval="1" modulate="true" />
+            </Policies>
+        </RollingRandomAccessFile>
+		
+		<RollingFile name="RollingFileError" fileName="${sys:user.home}/blog/error.log"
+                     filePattern="${sys:user.home}/blog/$${date:yyyy-MM}/error-%d{yyyy-MM-dd}-%i.log">
+        	<ThresholdFilter level="error" onMatch="ACCEPT" onMismatch="DENY"/>
+
+            <PatternLayout pattern="%d{yyyy-MM-dd HH:mm:ss.SSS} %-5level %class{36} %L %M -- %msg%xEx%n"/>
+            <Policies>
+                 <TimeBasedTriggeringPolicy/>
+                 <SizeBasedTriggeringPolicy size="100 MB"/>
+             </Policies>
+
+            <DefaultRolloverStrategy max="20"/>
+         </RollingFile>
+	</Appenders>
+
+    <Loggers>
+        <root level="info">
+            <appender-ref ref="Console"/>
+        </root>
+
+        
+    </Loggers>
+
+</Configuration>
