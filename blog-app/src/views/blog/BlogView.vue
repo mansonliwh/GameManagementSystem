@@ -20,8 +20,8 @@
               <span>{{article.author.nickname}}</span>
               <div class="me-view-meta">
                 <span>{{article.createDate | format}}</span>
-                <span>阅读   {{article.viewCounts}}</span>
-                <span>评论   {{article.commentCounts}}</span>
+                <span>Read  {{article.viewCounts}}</span>
+                <span>Comment   {{article.commentCounts}}</span>
               </div>
 
             </div>
@@ -31,7 +31,7 @@
               style="position: absolute;left: 60%;"
               size="mini"
               round
-              icon="el-icon-edit">编辑</el-button>
+              icon="el-icon-edit">Edit</el-button>
           </div>
           <div class="me-view-content">
             <markdown-editor :editor=article.editor></markdown-editor>
@@ -40,13 +40,13 @@
        
 
           <div class="me-view-tag">
-            labels：
+            labels:
             <!--<el-tag v-for="t in article.tags" :key="t.id" class="me-view-tag-item" size="mini" type="success">{{t.tagname}}</el-tag>-->
             <el-button @click="tagOrCategory('tag', t.id)" size="mini" type="primary" v-for="t in article.tags" :key="t.id" round plain>{{t.tagname}}</el-button>
           </div>
 
           <div class="me-view-tag">
-            categories：
+            categories:
             <!--<span style="font-weight: 600">{{article.category.categoryname}}</span>-->
             <el-button @click="tagOrCategory('category', article.category.id)" size="mini" type="primary" round plain>{{article.category.categoryname}}</el-button>
           </div>
