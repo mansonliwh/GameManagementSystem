@@ -6,6 +6,7 @@
 # Requirements
 * Redis-3.2.1
 * mysql-8.0.15
+* java 1.8
 * IDE
 
 # User interface diagram
