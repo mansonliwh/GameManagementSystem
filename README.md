@@ -7,8 +7,9 @@
 
 # User interface diagram
 ## Home page
-![image](https://github.com/mansonliwh/GameManagementSystem/document/home.png)
-
+![image](https://github.com/mansonliwh/GameManagementSystem/tree/master/document/home.png)
+## Login page
+![image](https://github.com/mansonliwh/GameManagementSystem/tree/master/document/login.png)
 
 # Run this website in back end
 0. connect the mysql
