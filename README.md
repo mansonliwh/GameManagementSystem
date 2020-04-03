@@ -1,5 +1,7 @@
 # Game Management System
 * Springboot + Vue.js
+* Github：
+* https://github.com/mansonliwh/GameManagementSystem
 
 # Requirements
 * Redis-3.2.1
