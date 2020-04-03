@@ -6,30 +6,34 @@
 # Requirements
 * Redis-3.2.1
 * mysql-8.0.15
-* java 1.8
+* Java version 1.8
 * IDE
 
 # User interface diagram
 ## Home page
 ![home](./document/home.png)
+
 ## Login page
-![image](https://github.com/mansonliwh/GameManagementSystem/blob/master/document/login.png)
+![image](./document/login.png)
 ## Game category page
-![image](https://github.com/mansonliwh/GameManagementSystem/blob/master/document/gamecate.png)
+![image](./document/gamecate.png)
 ## Divided game list page
-![image](https://github.com/mansonliwh/GameManagementSystem/blob/master/document/dividedgame.png)
+![image](./document/dividedgame.png)
 ## Collection page
-![image](https://github.com/mansonliwh/GameManagementSystem/blob/master/document/collection.png)
+![image](./document/collection.png)
 ## Article category page
-![image](https://github.com/mansonliwh/GameManagementSystem/blob/master/document/articate.png)
+![image](./document/articate.png)
 ## Divided article list page
-![image](https://github.com/mansonliwh/GameManagementSystem/blob/master/document/dividedarti.png)
+![image](./document/dividedarti.png)
 ## Article view page
-![image](https://github.com/mansonliwh/GameManagementSystem/blob/master/document/view1.png)
-![image](https://github.com/mansonliwh/GameManagementSystem/blob/master/document/view2.png)
+![image](./document/view1.png)
+
+
+
+![image](./document/view2.png)
 
 # System architecture
-![image](https://github.com/mansonliwh/GameManagementSystem/blob/master/document/architecture.jpg)
+![image](./document/architecture.jpg)
 
 # Run this website in back end
 0. connect the mysql
