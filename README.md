@@ -1,9 +1,14 @@
 # Game Management System
 
 # Requirements
-* Redis
-* mysql
+* Redis-3.2.1
+* mysql-8.0.15
 * IDE
+
+# User interface diagram
+## Home page
+![image](https://github.com/mansonliwh/GameManagementSystem/document/home.png)
+
 
 # Run this website in back end
 0. connect the mysql
