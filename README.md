@@ -1,7 +1,7 @@
 # Game Management System
 * Springboot + Vue.js
-* Github：
-* https://github.com/mansonliwh/GameManagementSystem
+* Github：https://github.com/mansonliwh/GameManagementSystem
+* Designed by group11, members: Congyu Cai, Xi Shao, Weihang Li, Xinyue Sheng 
 
 # Requirements
 * Redis-3.2.1
