@@ -1,4 +1,5 @@
 # Game Management System
+* Springboot + Vue.js
 
 # Requirements
 * Redis-3.2.1
@@ -7,9 +8,25 @@
 
 # User interface diagram
 ## Home page
-![image](https://github.com/mansonliwh/GameManagementSystem/tree/master/document/home.png)
+![image](https://github.com/mansonliwh/GameManagementSystem/blob/master/document/home.png)
 ## Login page
-![image](https://github.com/mansonliwh/GameManagementSystem/tree/master/document/login.png)
+![image](https://github.com/mansonliwh/GameManagementSystem/blob/master/document/login.png)
+## Game category page
+![image](https://github.com/mansonliwh/GameManagementSystem/blob/master/document/gamecate.png)
+## Divided game list page
+![image](https://github.com/mansonliwh/GameManagementSystem/blob/master/document/dividedgame.png)
+## Collection page
+![image](https://github.com/mansonliwh/GameManagementSystem/blob/master/document/collection.png)
+## Article category page
+![image](https://github.com/mansonliwh/GameManagementSystem/blob/master/document/articate.png)
+## Divided article list page
+![image](https://github.com/mansonliwh/GameManagementSystem/blob/master/document/dividedarti.png)
+## Article view page
+![image](https://github.com/mansonliwh/GameManagementSystem/blob/master/document/view1.png)
+![image](https://github.com/mansonliwh/GameManagementSystem/blob/master/document/view2.png)
+
+# System architecture
+![image](https://github.com/mansonliwh/GameManagementSystem/blob/master/document/architecture.jpg)
 
 # Run this website in back end
 0. connect the mysql
