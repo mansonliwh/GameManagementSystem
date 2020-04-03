@@ -11,7 +11,7 @@
 
 # User interface diagram
 ## Home page
-![image][home](.document/home.png)
+![image](https://github.com/mansonliwh/GameManagementSystem/blob/master/document/home.png)
 ## Login page
 ![image](https://github.com/mansonliwh/GameManagementSystem/blob/master/document/login.png)
 ## Game category page
